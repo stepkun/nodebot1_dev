@@ -4,7 +4,15 @@
 # Example:
 ############
 repositories:
-  examples:
+  nodebot1:
     type: git
-    url: https://github.com/ros2/examples.git
+    url: git@github.com:TheNodeBots/nodebot1.git
+    version: humble
+  pico_chassis:
+    type: git
+    url: git@github.com:TheNodeBots/pico_chassis.git
+    version: humble
+  pan_tilt_cam:
+    type: git
+    url: git@github.com:TheNodeBots/pan_tilt_cam.git
     version: humble
