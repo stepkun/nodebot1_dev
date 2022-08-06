@@ -1,5 +1,8 @@
 FROM althack/ros2:galactic-dev 
 
+# set timezone
+ENV TZ="Europe/Berlin"
+
 # ** [Optional] Uncomment this section to install additional packages. **
 #
 # ENV DEBIAN_FRONTEND=noninteractive
